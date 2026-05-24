@@ -1,0 +1,52 @@
+<html>
+    <head>
+        <title> Registeration Form</title>
+    </head>
+    <body>
+        <h1>Registeration Form</h1>
+        <form action="/action.php">
+            <input type="text" placeholder="user name"/>
+            <br><br>
+            <input type="password" placeholder="password"
+            <br><br>
+            <h4>Select you class</h4>
+            <label for="101">
+                <input type="radio" value="classXI" name="class" id="101">class classXI
+            </label>
+            <br><br>
+            <label>
+                <input type="radio" value="class XII" name="class" id="102"> class XII
+            </label>
+            <br><br>
+            <h4>Select fav Subjects</h4>
+            <label for="math">
+                <input type="checkbox" value="math" name="subject" id="101">Math
+            </label>
+            <br><br>
+            <label for="phy">
+                <input type="checkbox" value="phy" name="subject" id="102">Physic
+            </label>
+            <br><br>
+            <label for="englis">
+                <input type="checkbox" value="englis" name="subject" id="103">English
+            </label>
+            <br><br>
+            <label for="CS">
+                <input type="checkbox" value="computer sciense" name="subject" id="105">Computer Science
+            </label>
+            <br><br>
+            <h4>Select your Sity</h4>
+            <select name="city">
+                <option value="Delhi">Delhi</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Pune">Pune</option>
+                <option value="Mumbai">Mumbai</option>
+            </select>
+            <br><br>
+            <textarea name="Feedback" id="101" placeholder="please give your variable Feedback here" rows="5"
+            ></textarea>
+            <br><br>
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
